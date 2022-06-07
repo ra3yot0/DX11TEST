@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx;</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\D3DManager">
+      <UniqueIdentifier>{3bb52c58-724b-4155-8e6d-5b502b826269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\shader">
+      <UniqueIdentifier>{9d307e8f-3f26-4f10-9024-2f9e308ac2bb}</UniqueIdentifier>
+      <Extensions>psh;vsh;</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\shader">
+      <UniqueIdentifier>{16ce7c85-4083-4371-8a40-70068ef53bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Model">
+      <UniqueIdentifier>{3b5db477-bd9d-4318-8375-1e53e1c4ce78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Model">
+      <UniqueIdentifier>{e7798469-7933-4e67-905b-b335b9041b71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DManager\D3DManager_Debug.cpp">
+      <Filter>ソース ファイル\D3DManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DManager\D3DManager_General.cpp">
+      <Filter>ソース ファイル\D3DManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DManager\D3DManager_Init.cpp">
+      <Filter>ソース ファイル\D3DManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DManager\D3DManager_Drawing.cpp">
+      <Filter>ソース ファイル\D3DManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\D3DManager\D3DManager_Model.cpp">
+      <Filter>ソース ファイル\D3DManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Model.cpp">
+      <Filter>ソース ファイル\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\ModelSquare.cpp">
+      <Filter>ソース ファイル\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\HeaderDX11.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\pshader.h">
+      <Filter>ヘッダー ファイル\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader\vshader.h">
+      <Filter>ヘッダー ファイル\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model\HeaderApp.hpp">
+      <Filter>ヘッダー ファイル\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\shader\shader.vsh">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+    <FxCompile Include="src\shader\shader.psh">
+      <Filter>ソース ファイル\shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
